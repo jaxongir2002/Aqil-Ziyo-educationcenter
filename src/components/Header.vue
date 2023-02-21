@@ -165,13 +165,14 @@ export default {
     position: absolute;
     content: '';
     width: 100vw;
-    height: 100vh;
+    height: 140% !important;
     background-color: rgba(10, 0, 0, 0.411);
     z-index: 80;
 }
 
 .d_confirm {
     width: 60% !important;
+   
 }
 
 /* Media */

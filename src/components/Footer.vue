@@ -8,13 +8,13 @@
                 <div class="my_icon_group">
                     <box-icon class="my_icon" name='instagram' type='logo'  color='white'></box-icon>
                 </div>
-                <div class="my_icon_group">
+                <div class="my_icon_group facebookHover">
                     <box-icon class="my_icon" type='logo' name='facebook' color='white'></box-icon>
                 </div>
-                <div class="my_icon_group">
+                <div class="my_icon_group twitterHover">
                     <box-icon class="my_icon" type='logo' name='twitter' color='white'></box-icon>
                 </div>
-                <div class="my_icon_group">
+                <div class="my_icon_group telegramhover">
                     <box-icon class="my_icon" name='telegram' type='logo' color='white' ></box-icon>
                 </div>
                 
@@ -60,7 +60,7 @@ export default {
 </script>
 <style scoped>
 .footer{
-    background-color: rgba(0, 0, 0, 0.882);
+    background-color: #26272b;
     margin-top: 10%;
 }
 .footer_one{
@@ -82,13 +82,23 @@ export default {
     transition: .4s;
 }
 .my_icon_group:hover{
-    background-color: rgba(139, 0, 0, 0.802);
+    background-color: #983b3b;
+}
+.facebookHover:hover{
+    background-color: #3b5998;
+}
+.twitterHover:hover{
+    background-color:#00aced;
 }
 .my_icon_group .my_icon{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.telegramhover:hover{
+    background-color:#007bb6;
+
 }
 .footer_two{
     padding: 55px 0;
@@ -143,10 +153,6 @@ ul li a{
     .footer_menu ul li a{
         
         font-size: 12px;
-    }
-    .fotter_media{
-      display: flex;
-      justify-content: space-around;
     }
    
 
