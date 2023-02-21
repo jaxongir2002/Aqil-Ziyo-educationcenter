@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-md bg-light navbar-light">
             <div class="container d-flex justify-content-between w-100">
-                <div class="navbar-brand navbar_logo w-25">
+                <div class="navbar-brand navbar_logo w-25 ">
                     <img src="../assets/img/AZ-LOGO.png" alt="" class="w-50">
                 </div>
                 <button class="navbar-toggler" type="button" style="font-size: 15px;" data-bs-toggle="collapse"
@@ -68,4 +68,13 @@ a:hover {
 .navbar_logo img {
     width: 77px;
     height: 36px;
-}</style>
+}
+@media (max-width:412px) {
+    .navbar_logo img {
+    width: 120% !important;
+    height: 40px;
+}
+    
+}
+
+</style>

@@ -9,12 +9,12 @@
                     <p>Help find solutions with intitutive and in accordance with client business goals. we provide a
                         high-quality services.</p>
                 </div>
-                <div class="btn_and_player d-flex justify-content-between">
+                <div class="btn_and_player d-flex justify-content-between gap-3">
                     <button class="my_btn ">Contact Us</button>
-                    <div class="player d-flex justify-content-center">
+                    <div class="player d-flex justify-content-between">
                         <div class="my_player" @click="openModal"></div>
-                        <div class=" d-flex gap-5" >
-                            <p class=" mt-2">Watch our  introduction video</p>
+                        <div class="d-flex ">
+                            <p class="mt-2 players_text ">Watch our  introduction video</p>
                         </div>
                     </div>
                 </div>
@@ -103,6 +103,7 @@ export default {
 .btn_and_player {
     width: 450px;
     margin-top: 5%;
+    
 }
 
 .my_btn {
@@ -111,7 +112,7 @@ export default {
     color: white;
     border-radius: 12px;
     height: 50%;
-    padding: 10px 40px;
+    padding: 10px 28px;
     transition: .4s;
     box-shadow: 5px 5px 20px rgba(45, 6, 6, 0.331);
 }
@@ -228,7 +229,8 @@ export default {
     }
 
     .word_products {
-        padding: 4px 25px;
+        padding: 4px 15px;
+        border:2px solid darkred; 
     }
 
     .right_section img {
@@ -239,19 +241,24 @@ export default {
 
     .btn_and_player {
         width: 300px;
-        margin-top: 20px;
-    }
+        margin-top: 30px  ;
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 10px !important;
+        }
 
     .my_btn {
         padding: 5px 20px;
         font-size: 10px;
         margin-top: 10px;
+     
     }
 
     .my_player {
         width: 28px;
         height: 28px;
-        margin-top: 10px;
+        margin-top: 5px !important;
+        
     }
 
     .my_player::before {

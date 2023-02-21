@@ -40,4 +40,21 @@ export default {
     bottom: 10px;
     right: 10px;
 }
+@media (max-width: 1000px) {
+
+    .bag{
+       width: 100% !important;
+       height: 500% !important;
+       background-color: rgba(43, 38, 38, 0.481);
+   
+}
+.play_confirm{
+   
+    width: 300px;
+    height: 250px;
+
+  
+}
+    
+}
 </style>

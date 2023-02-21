@@ -25,7 +25,7 @@
         <div class="footer_two container d-flex">
             <div class="footer_menu w-75">
                 <h4>Company</h4>
-                <ul>
+                <ul class="fotter_media">
                     <li>
                         <a href="#">About US</a>
                     </li>
@@ -141,8 +141,14 @@ ul li a{
         font-size: 20px;
     }
     .footer_menu ul li a{
+        
         font-size: 12px;
     }
+    .fotter_media{
+      display: flex;
+      justify-content: space-around;
+    }
+   
 
 }
 @media only screen and (max-width: 579px) {
@@ -159,6 +165,7 @@ ul li a{
     }
 }
 @media only screen and (max-width: 486px) {
+   
     .footer{
         position: relative;
         z-index: 2;
